@@ -30,6 +30,7 @@ color: #4d5ae5;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color:#2e2f42;
 }
 .active-studio:active{
     color:#2e2f42;
@@ -109,7 +110,7 @@ color: #2e2f42;
 text-transform: capitalize
 }
 .team-list{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .team-name{
     font-weight: 500;
@@ -119,7 +120,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
-.job title{
+.job-title{
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
