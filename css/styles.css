@@ -32,7 +32,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .active-studio:active{
-    color:#2e2f42
+    color:#2e2f42;
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -86,6 +86,7 @@ color: #fff;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .qality-list-text{
     font-weight: 400;
@@ -95,6 +96,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 /* =====TEAM===== */
+.team-section{
+    background-color: #F4F4FD;
+}
 .team-heder{
     font-weight: 700;
 font-size: 36px;
@@ -102,6 +106,10 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize
+}
+.team-list{
+    background-color: #FFFFFF
 }
 .team-name{
     font-weight: 500;
@@ -109,6 +117,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
+color: #2e2f42;
 }
 .job title{
     font-weight: 400;
@@ -120,7 +129,7 @@ color: #434455;
 }
 /* =====PORTFOLIO===== */
 .section-portfolio-section{
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 .portfolio-heder{
     font-weight: 700;
@@ -132,13 +141,14 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 .portfolio-list{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .portfolio-list-heder{
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .portfolio-list-text{
     font-weight: 400;
