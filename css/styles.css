@@ -440,4 +440,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
+}
+.social-list-bot{
+    gap: 16px;
+}
+.social-link-bot:hover,
+.social-link-bot:focus{
+    background-color: #31d0aa;
 }
