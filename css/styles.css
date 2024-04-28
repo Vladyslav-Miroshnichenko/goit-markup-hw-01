@@ -429,6 +429,9 @@ color: #f4f4fd;
 .container-bottom{
     display: flex;
     align-items: baseline;
+    
+}
+.container-logo-text{
     margin-right: 120px;
 }
 .social-text-bot{
