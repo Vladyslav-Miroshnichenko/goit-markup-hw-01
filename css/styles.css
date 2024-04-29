@@ -451,10 +451,10 @@ margin-bottom: 16px;
 }
 
 .link-btn:hover .social-link-bot,
-.link-btn:focus{
+.link-btn:focus .social-link-bot{
     background-color: #31d0aa;
 }
 .link-btn:hover .social-icons-bot,
-.link-btn:focus{
+.link-btn:focus .social-icons-bot{
     background-color: #31d0aa;
 }
