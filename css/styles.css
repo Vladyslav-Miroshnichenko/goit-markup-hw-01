@@ -449,12 +449,11 @@ margin-bottom: 16px;
 .social-list-bot{
     gap: 16px;
 }
-
-.link-btn:hover .social-link-bot,
-.link-btn:focus .social-link-bot{
+.social-link-bot:hover,
+.social-link-bot:focus{
     background-color: #31d0aa;
 }
-.link-btn:hover .social-icons-bot,
+/* .link-btn:hover .social-icons-bot,
 .link-btn:focus .social-icons-bot{
     background-color: #31d0aa;
-}
+} */
