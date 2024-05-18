@@ -1008,3 +1008,202 @@ body {
         row-gap: 48px;
     }
 }
+
+/* =====BOT LINE===== */
+.bot-line {
+    background: #2e2f42;
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 96px 0;
+}
+
+.logo-bot {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.text-color-bot {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.bot-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.container-bottom {
+    align-items: baseline;
+}
+
+.container-logo-text {
+    text-align: center;
+    margin-bottom: 72px;
+    max-width: 288px;
+}
+
+.social-container-bottom {
+    margin-bottom: 72px;
+}
+
+.social-text-bot {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.social-list-bot {
+    gap: 16px;
+}
+
+.social-link-bot:hover,
+.social-link-bot:focus {
+    background-color: #31d0aa;
+}
+
+.subscribe-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.subscribe-form {
+    gap: 24px;
+    justify-content: center;
+}
+
+.input-subscribe {
+    width: 288px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.input-subscribe::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe-icon {
+    margin-left: 16px;
+    fill: #ffffff;
+}
+
+.input-subscribe {
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .bot-line {
+        max-width: 768px;
+    }
+
+    .container-bottom {
+        display: flex;
+        padding-left: 108px;
+        flex-wrap: wrap;
+    }
+
+    .container-logo-text {
+        text-align: start;
+        margin-right: 16px;
+    }
+
+    .subscribe-text {
+        text-align: start;
+    }
+
+    .subscribe-form {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1158px) {
+    .bot-line {
+        max-width: 1440px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .bot-text {
+        max-width: 264px;
+    }
+
+    .container-bottom {
+        flex-wrap: nowrap;
+        padding-left: 0;
+    }
+
+    .container-logo-text {
+        margin-right: 120px;
+        max-width: 264px;
+    }
+
+    .subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .container-subscribe {
+        margin-left: 0;
+    }
+
+    .social-container-bottom {
+        margin-right: 80px;
+    }
+
+    .bot-text {
+        width: 264px;
+    }
+}
