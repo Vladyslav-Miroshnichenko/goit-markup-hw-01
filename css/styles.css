@@ -210,6 +210,7 @@ body {
     }
 
     .contacts-list {
+
         gap: 12px;
     }
 
@@ -219,8 +220,6 @@ body {
         line-height: 1.7;
         letter-spacing: 0.04em;
         color: #434455;
-        padding-top: 16px;
-        padding-bottom: 16px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -620,10 +619,18 @@ body {
     padding-bottom: 72px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people_office.jpg);
+        url(../images/people_office_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .section-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people_office_mobile@2x.jpg);
+    }
 }
 
 .hero-container {
@@ -672,6 +679,9 @@ body {
     .section-hero {
         max-width: 768px;
         padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people_office_tablet.jpg);
     }
 
     .main-title {
@@ -685,16 +695,35 @@ body {
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .section-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people_office_tablet@2x.jpg);
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .section-hero {
         max-width: 1400px;
         padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people_office.jpg);
     }
 
     .btn-order-service {
         margin-top: 48px;
     }
 
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .section-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people_office@2x.jpg);
+    }
 }
 
 /* =====SECTION 2===== */
@@ -704,6 +733,12 @@ body {
 
 .section-second {
     padding: 96px 0;
+}
+
+.qality-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
 }
 
 .qality-list-title {
@@ -724,9 +759,6 @@ body {
     color: #434455;
 }
 
-.qality-list-items:not(:last-child) {
-    padding-bottom: 72px;
-}
 
 @media screen and (min-width: 768px) {
     .qality-list-title {
@@ -736,12 +768,10 @@ body {
     .qality-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 24px 72px;
     }
 
-    .qality-list-items {
-        margin-right: 24px;
-        margin-bottom: 72px;
-    }
+    .qality-list-items {}
 
     .qality-list-items:not(:last-child) {
         padding-bottom: 0px;
@@ -759,6 +789,7 @@ body {
 
     .qality-list {
         display: flex;
+        flex-direction: row;
         gap: 24px;
     }
 
@@ -1012,7 +1043,6 @@ body {
 /* =====BOT LINE===== */
 .bot-line {
     background: #2e2f42;
-    max-width: 320px;
     margin-right: auto;
     margin-left: auto;
     padding: 96px 0;
@@ -1145,19 +1175,17 @@ body {
 }
 
 @media screen and (min-width:768px) {
-    .bot-line {
-        max-width: 768px;
-    }
 
     .container-bottom {
+        max-width: 584px;
         display: flex;
-        padding-left: 108px;
         flex-wrap: wrap;
+        gap: 72px 16px;
     }
 
     .container-logo-text {
         text-align: start;
-        margin-right: 16px;
+        margin-bottom: 0;
     }
 
     .subscribe-text {
@@ -1167,11 +1195,18 @@ body {
     .subscribe-form {
         display: flex;
     }
+
+    .social-container-bottom {
+        margin-bottom: 0;
+    }
+
+    .input-subscribe {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width:1158px) {
     .bot-line {
-        max-width: 1440px;
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -1181,6 +1216,7 @@ body {
     }
 
     .container-bottom {
+        max-width: 1158px;
         flex-wrap: nowrap;
         padding-left: 0;
     }
@@ -1188,6 +1224,7 @@ body {
     .container-logo-text {
         margin-right: 120px;
         max-width: 264px;
+        margin-bottom: 0;
     }
 
     .subscribe-form {
@@ -1201,6 +1238,7 @@ body {
 
     .social-container-bottom {
         margin-right: 80px;
+        margin-bottom: 0;
     }
 
     .bot-text {
