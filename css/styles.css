@@ -236,6 +236,10 @@ body {
         display: flex;
         align-items: center;
     }
+
+    .contacts-list-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -346,6 +350,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .mobile-contacts-list-item {
@@ -611,7 +616,6 @@ body {
 
 /* =======Hero======= */
 .section-hero {
-    max-width: 320px;
     background: #2e2f42;
     margin-right: auto;
     margin-left: auto;
@@ -677,7 +681,6 @@ body {
 
 @media screen and (min-width: 768px) {
     .section-hero {
-        max-width: 768px;
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -1243,5 +1246,9 @@ body {
 
     .bot-text {
         width: 264px;
+    }
+
+    .social-text-bot {
+        text-align: start;
     }
 }
